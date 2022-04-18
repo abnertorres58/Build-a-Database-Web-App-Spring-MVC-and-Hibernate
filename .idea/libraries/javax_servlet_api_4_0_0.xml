@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="javax.servlet-api-4.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
