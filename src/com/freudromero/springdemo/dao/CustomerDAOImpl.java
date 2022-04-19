@@ -1,6 +1,7 @@
 package com.freudromero.springdemo.dao;
 
 import com.freudromero.springdemo.entity.Customer;
+import com.mysql.cj.xdevapi.SessionImpl;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -31,5 +32,16 @@ public class CustomerDAOImpl implements CustomerDAO{
 
         // Return the results
         return customers;
+    }
+
+    @Override
+    public void saveCustomer(Customer theCustomer) {
+
+        // Get the current hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        // Save the customer
+        currentSession.save(theCustomer);
+
     }
 }
