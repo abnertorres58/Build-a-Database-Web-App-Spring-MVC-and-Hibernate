@@ -14,6 +14,7 @@
           <element id="library" level="project" name="c3p0-0.9.5.5" />
           <element id="library" level="project" name="javax.activation-1.2.0" />
           <element id="library" level="project" name="javax.servlet-api-4.0.0" />
+          <element id="library" level="project" name="aspectjweaver-1.9.9.1" />
         </element>
       </element>
     </root>
